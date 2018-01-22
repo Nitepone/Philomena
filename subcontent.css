@@ -1,0 +1,25 @@
+.paragraph {
+
+}
+
+.paragraph p {
+
+}
+
+.paragraph h1 {
+
+}
+
+.heading {
+  text-align:center;
+  margin-top:10rem;
+  margin-bottom:10rem;
+}
+
+.heading h1 {
+  font-size:4em;
+}
+
+.heading h2 {
+  font-size:2em;
+}
