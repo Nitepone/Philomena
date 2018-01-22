@@ -4,7 +4,7 @@
   <head>
     <title>Night Horse</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="fa/css/fontawesome-all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

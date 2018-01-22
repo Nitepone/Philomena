@@ -1,19 +1,31 @@
+.subcontent {
+  margin:2rem;
+}
+
 .paragraph {
 
 }
 
 .paragraph p {
-
+  margin:.2em;
+  padding:.2em;
+  font-size:1.4em;
 }
 
 .paragraph h1 {
+  margin:1em;
+  text-align:center;
+}
 
+.paragraph h2 {
+  margin-top:1em;
+  margin-bottom:.2em;
 }
 
 .heading {
   text-align:center;
-  margin-top:10rem;
-  margin-bottom:10rem;
+  margin-top:11rem;
+  margin-bottom:8rem;
 }
 
 .heading h1 {

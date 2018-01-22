@@ -7,8 +7,8 @@ body {
 .content {
   width:50em;
   margin:0 auto;
-  margin-top:6rem;
-  margin-bottom:6rem
+  margin-top:7rem;
+  margin-bottom:7rem
 }
 
 .navbar {
@@ -51,8 +51,10 @@ body {
 @media only screen and (max-width:50em) {
   /*For small*/
   .content {
-    width:100%;
-    padding:8%;
+    width:80%;
+    padding:10%;
+    margin-left:0;
+    margin-right:0;
     padding-top:0;
   }
 }
