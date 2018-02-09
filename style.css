@@ -17,6 +17,8 @@ body {
   position:fixed;
   top:0;
   width:100%;
+  padding-left: calc(50% - 30em);
+  padding-right: calc(50% - 30em);
 }
 
 .navbar a {
