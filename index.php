@@ -23,8 +23,8 @@
       <a href="https://github.com/nitepone">
         <i class="fab fa-github fa-3x"></i>
       </a>
-      <a href="https://steamcommunity.com/profiles/76561198028610399">
-        <i class="fab fa-steam fa-3x"></i>
+      <a href="https://gitlab.com/Nitepone">
+        <i class="fab fa-gitlab fa-3x"></i>
       </a>
     </div>
 
