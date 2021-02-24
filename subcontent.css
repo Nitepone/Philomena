@@ -22,6 +22,14 @@
   margin-bottom:.2em;
 }
 
+.paragraph li {
+  font-size:1.4em;
+}
+
+.paragraph a {
+  font-size:1.4em;
+}
+
 .heading {
   text-align:center;
   margin-top:11rem;
