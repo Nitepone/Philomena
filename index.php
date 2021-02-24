@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="lib/fa/css/fontawesome-all.css">
+    <link rel="stylesheet" href="lib/fa/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
@@ -21,7 +21,7 @@
 
     <div class="footer">
       <a href="https://github.com/nitepone">
-        <i class="fab fa-github fa-3x"></i>
+        <i class="fab fa-github-alt fa-3x"></i>
       </a>
       <a href="https://gitlab.com/Nitepone">
         <i class="fab fa-gitlab fa-3x"></i>
