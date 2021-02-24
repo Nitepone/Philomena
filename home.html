@@ -15,5 +15,11 @@
 
 <div class="subcontent paragraph">
   <h2>Projects</h2>
-  <p>There will be more on this in the near future.</p>
+	<p><a class="button" id="projects" href="#projects">See My Projects</a></p>
 </div>
+
+<script type="text/javascript">
+  $("#projects").click(function(){
+    $(this).parent().load("projects.html");
+  });
+</script>
