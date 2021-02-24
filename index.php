@@ -14,6 +14,7 @@
     <div class="navbar">
       <a id="home" style="padding:.5em; padding-right:1em; padding-left:1em;" href="#"><img height=37em src="bird.png"/></a>
       <a id="about" href="#about">About</a>
+      <a id="projects" href="#projects">Projects</a>
       <a id="contact" href="#contact">Contact</a>
     </div>
 
@@ -38,6 +39,9 @@
       });
       $("#contact").click(function(){
         $("#content").load("contact.html");
+      });
+      $("#projects").click(function(){
+        $("#content").load("projects.html");
       });
       $("#content").load("home.html");
     </script>
