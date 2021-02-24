@@ -15,11 +15,5 @@
 
 <div class="subcontent paragraph">
   <h2>Projects</h2>
-	<p><a class="button" id="projects" href="#projects">See My Projects</a></p>
+	<p><a class="button" onclick="loadcontent('#projects')" href="#projects">See My Projects</a></p>
 </div>
-
-<script type="text/javascript">
-  $("#projects").click(function(){
-    $(this).parent().load("projects.html");
-  });
-</script>

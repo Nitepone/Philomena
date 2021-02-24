@@ -1,5 +1,6 @@
 <!doctype html>
 
+
 <html lang="en">
   <head>
     <title>Night Horse</title>
@@ -12,10 +13,10 @@
 
   <body>
     <div class="navbar">
-      <a id="home" style="padding:.5em; padding-right:1em; padding-left:1em;" href="#"><img height=37em src="bird.png"/></a>
-      <a id="about" href="#about">About</a>
-      <a id="projects" href="#projects">Projects</a>
-      <a id="contact" href="#contact">Contact</a>
+      <a onclick="loadcontent()" style="padding:.5em; padding-right:1em; padding-left:1em;" href="#"><img height=37em src="bird.png"/></a>
+      <a onclick="loadcontent('#about')" href="#about">About</a>
+      <a onclick="loadcontent('#projects')" href="#projects">Projects</a>
+      <a class="btn" href="#contact">Contact</a>
     </div>
 
     <div id="content" class="content"></div>
@@ -30,21 +31,29 @@
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript">
-      $("#about").click(function(){
-        $("#content").load("about.html");
-      });
-      $("#home").click(function(){
-        $("#content").load("home.html");
-      });
-      $("#contact").click(function(){
-        $("#content").load("contact.html");
-      });
-      $("#projects").click(function(){
-        $("#content").load("projects.html");
-      });
-      $("#content").load("home.html");
-    </script>
+		<script type="text/javascript">
+			async function loadcontent(page) {
+				var hash = window.location.hash;
+				switch (page) {
+					case "#about":
+						$("#content").load("about.html");
+						break;
+					case "#contact":
+						$("#content").load("contact.html");
+						break;
+					case "#projects":
+						$("#content").load("projects.html");
+						break;
+					case "#home":
+					default:
+						$("#content").load("home.html");
+						break;
+				}
+			}
+			$(".btn").on('click', loadcontent(e.target.href));
+			loadcontent(window.location.hash);
+		</script>
+
 
   </body>
 </html>
