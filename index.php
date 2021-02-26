@@ -16,7 +16,7 @@
       <a onclick="loadcontent()" style="padding:.5em; padding-right:1em; padding-left:1em;" href="#"><img height=37em src="bird.png"/></a>
       <a onclick="loadcontent('#about')" href="#about">About</a>
       <a onclick="loadcontent('#projects')" href="#projects">Projects</a>
-      <a class="btn" href="#contact">Contact</a>
+      <a onclick="loadcontent('#projects')" href="#contact">Contact</a>
     </div>
 
     <div id="content" class="content"></div>
@@ -50,7 +50,6 @@
 						break;
 				}
 			}
-			$(".btn").on('click', loadcontent(e.target.href));
 			loadcontent(window.location.hash);
 		</script>
 
