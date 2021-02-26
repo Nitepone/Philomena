@@ -1,3 +1,6 @@
 [submodule "lib/fa"]
 	path = lib/fa
 	url = https://github.com/FortAwesome/Font-Awesome
+[submodule "lib/overpass"]
+	path = lib/overpass
+	url = https://github.com/RedHatOfficial/Overpass.git

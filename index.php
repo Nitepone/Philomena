@@ -6,7 +6,7 @@
     <title>Night Horse</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="lib/overpass/webfonts/overpass-webfont/overpass.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/fa/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -16,7 +16,7 @@
       <a onclick="loadcontent()" style="padding:.5em; padding-right:1em; padding-left:1em;" href="#"><img height=37em src="bird.png"/></a>
       <a onclick="loadcontent('#about')" href="#about">About</a>
       <a onclick="loadcontent('#projects')" href="#projects">Projects</a>
-      <a onclick="loadcontent('#projects')" href="#contact">Contact</a>
+      <a onclick="loadcontent('#contact')" href="#contact">Contact</a>
     </div>
 
     <div id="content" class="content"></div>
