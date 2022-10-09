@@ -31,27 +31,27 @@
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript">
-			async function loadcontent(page) {
-				var hash = window.location.hash;
-				switch (page) {
-					case "#about":
-						$("#content").load("about.html");
-						break;
-					case "#contact":
-						$("#content").load("contact.html");
-						break;
-					case "#projects":
-						$("#content").load("projects.html");
-						break;
-					case "#home":
-					default:
-						$("#content").load("home.html");
-						break;
-				}
-			}
-			loadcontent(window.location.hash);
-		</script>
+    <script type="text/javascript">
+      async function loadcontent(page) {
+        var hash = window.location.hash;
+        switch (page) {
+          case "#about":
+            $("#content").load("about.html");
+            break;
+          case "#contact":
+            $("#content").load("contact.html");
+            break;
+          case "#projects":
+            $("#content").load("projects.html");
+            break;
+          case "#home":
+          default:
+            $("#content").load("home.html");
+            break;
+        }
+      }
+      loadcontent(window.location.hash);
+    </script>
 
 
   </body>
